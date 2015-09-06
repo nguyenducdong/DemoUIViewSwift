@@ -17,7 +17,8 @@
     //--------- From this line, please customize your menu data -----------
     NSDictionary* basic = @{SECTION: @"BasicView", MENU: @[
                                     @{TITLE: @"BasicView", CLASS: @"BasicView"},
-                                    @{TITLE: @"ChessView", CLASS: @"ChessView"}
+                                    @{TITLE: @"ChessView", CLASS: @"ChessView"},
+                                    @{TITLE: @"Hoạt hình trong UIImageView", CLASS: @"CampFire"}
                           ]};
     
     mainScreen.menu = @[basic];

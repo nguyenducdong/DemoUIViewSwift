@@ -19,6 +19,24 @@
 		6F66E5391B9C8E880084633C /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F66E5371B9C8E880084633C /* DemoViewController.m */; };
 		6F66E53A1B9C8E880084633C /* DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F66E5381B9C8E880084633C /* DemoViewController.xib */; };
 		6F66E53D1B9C91F20084633C /* ChessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F66E53C1B9C91F20084633C /* ChessView.m */; };
+		6F66E5401B9CA3F50084633C /* CampFire.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F66E53F1B9CA3F50084633C /* CampFire.m */; };
+		6F66E5531B9CA4A50084633C /* campFire01.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6F66E5421B9CA4A50084633C /* campFire01.gif */; };
+		6F66E5541B9CA4A50084633C /* campFire02.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6F66E5431B9CA4A50084633C /* campFire02.gif */; };
+		6F66E5551B9CA4A50084633C /* campFire03.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6F66E5441B9CA4A50084633C /* campFire03.gif */; };
+		6F66E5561B9CA4A50084633C /* campFire04.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6F66E5451B9CA4A50084633C /* campFire04.gif */; };
+		6F66E5571B9CA4A50084633C /* campFire05.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6F66E5461B9CA4A50084633C /* campFire05.gif */; };
+		6F66E5581B9CA4A50084633C /* campFire06.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6F66E5471B9CA4A50084633C /* campFire06.gif */; };
+		6F66E5591B9CA4A50084633C /* campFire07.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6F66E5481B9CA4A50084633C /* campFire07.gif */; };
+		6F66E55A1B9CA4A50084633C /* campFire08.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6F66E5491B9CA4A50084633C /* campFire08.gif */; };
+		6F66E55B1B9CA4A50084633C /* campFire09.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6F66E54A1B9CA4A50084633C /* campFire09.gif */; };
+		6F66E55C1B9CA4A50084633C /* campFire10.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6F66E54B1B9CA4A50084633C /* campFire10.gif */; };
+		6F66E55D1B9CA4A50084633C /* campFire11.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6F66E54C1B9CA4A50084633C /* campFire11.gif */; };
+		6F66E55E1B9CA4A50084633C /* campFire12.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6F66E54D1B9CA4A50084633C /* campFire12.gif */; };
+		6F66E55F1B9CA4A50084633C /* campFire13.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6F66E54E1B9CA4A50084633C /* campFire13.gif */; };
+		6F66E5601B9CA4A50084633C /* campFire14.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6F66E54F1B9CA4A50084633C /* campFire14.gif */; };
+		6F66E5611B9CA4A50084633C /* campFire15.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6F66E5501B9CA4A50084633C /* campFire15.gif */; };
+		6F66E5621B9CA4A50084633C /* campFire16.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6F66E5511B9CA4A50084633C /* campFire16.gif */; };
+		6F66E5631B9CA4A50084633C /* campFire17.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6F66E5521B9CA4A50084633C /* campFire17.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +61,25 @@
 		6F66E5381B9C8E880084633C /* DemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoViewController.xib; sourceTree = "<group>"; };
 		6F66E53B1B9C91F20084633C /* ChessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessView.h; sourceTree = "<group>"; };
 		6F66E53C1B9C91F20084633C /* ChessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChessView.m; sourceTree = "<group>"; };
+		6F66E53E1B9CA3F50084633C /* CampFire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CampFire.h; sourceTree = "<group>"; };
+		6F66E53F1B9CA3F50084633C /* CampFire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CampFire.m; sourceTree = "<group>"; };
+		6F66E5421B9CA4A50084633C /* campFire01.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = campFire01.gif; sourceTree = "<group>"; };
+		6F66E5431B9CA4A50084633C /* campFire02.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = campFire02.gif; sourceTree = "<group>"; };
+		6F66E5441B9CA4A50084633C /* campFire03.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = campFire03.gif; sourceTree = "<group>"; };
+		6F66E5451B9CA4A50084633C /* campFire04.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = campFire04.gif; sourceTree = "<group>"; };
+		6F66E5461B9CA4A50084633C /* campFire05.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = campFire05.gif; sourceTree = "<group>"; };
+		6F66E5471B9CA4A50084633C /* campFire06.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = campFire06.gif; sourceTree = "<group>"; };
+		6F66E5481B9CA4A50084633C /* campFire07.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = campFire07.gif; sourceTree = "<group>"; };
+		6F66E5491B9CA4A50084633C /* campFire08.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = campFire08.gif; sourceTree = "<group>"; };
+		6F66E54A1B9CA4A50084633C /* campFire09.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = campFire09.gif; sourceTree = "<group>"; };
+		6F66E54B1B9CA4A50084633C /* campFire10.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = campFire10.gif; sourceTree = "<group>"; };
+		6F66E54C1B9CA4A50084633C /* campFire11.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = campFire11.gif; sourceTree = "<group>"; };
+		6F66E54D1B9CA4A50084633C /* campFire12.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = campFire12.gif; sourceTree = "<group>"; };
+		6F66E54E1B9CA4A50084633C /* campFire13.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = campFire13.gif; sourceTree = "<group>"; };
+		6F66E54F1B9CA4A50084633C /* campFire14.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = campFire14.gif; sourceTree = "<group>"; };
+		6F66E5501B9CA4A50084633C /* campFire15.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = campFire15.gif; sourceTree = "<group>"; };
+		6F66E5511B9CA4A50084633C /* campFire16.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = campFire16.gif; sourceTree = "<group>"; };
+		6F66E5521B9CA4A50084633C /* campFire17.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = campFire17.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +112,7 @@
 		6F66E4FF1B9C850C0084633C /* DongPracticeObjectiveC */ = {
 			isa = PBXGroup;
 			children = (
+				6F66E5411B9CA4A50084633C /* CampFire */,
 				6F66E5301B9C86490084633C /* BasicView */,
 				6F66E5261B9C85820084633C /* Core */,
 				6F66E5041B9C850C0084633C /* AppDelegate.h */,
@@ -119,8 +157,34 @@
 				6F66E5381B9C8E880084633C /* DemoViewController.xib */,
 				6F66E53B1B9C91F20084633C /* ChessView.h */,
 				6F66E53C1B9C91F20084633C /* ChessView.m */,
+				6F66E53E1B9CA3F50084633C /* CampFire.h */,
+				6F66E53F1B9CA3F50084633C /* CampFire.m */,
 			);
 			path = BasicView;
+			sourceTree = "<group>";
+		};
+		6F66E5411B9CA4A50084633C /* CampFire */ = {
+			isa = PBXGroup;
+			children = (
+				6F66E5421B9CA4A50084633C /* campFire01.gif */,
+				6F66E5431B9CA4A50084633C /* campFire02.gif */,
+				6F66E5441B9CA4A50084633C /* campFire03.gif */,
+				6F66E5451B9CA4A50084633C /* campFire04.gif */,
+				6F66E5461B9CA4A50084633C /* campFire05.gif */,
+				6F66E5471B9CA4A50084633C /* campFire06.gif */,
+				6F66E5481B9CA4A50084633C /* campFire07.gif */,
+				6F66E5491B9CA4A50084633C /* campFire08.gif */,
+				6F66E54A1B9CA4A50084633C /* campFire09.gif */,
+				6F66E54B1B9CA4A50084633C /* campFire10.gif */,
+				6F66E54C1B9CA4A50084633C /* campFire11.gif */,
+				6F66E54D1B9CA4A50084633C /* campFire12.gif */,
+				6F66E54E1B9CA4A50084633C /* campFire13.gif */,
+				6F66E54F1B9CA4A50084633C /* campFire14.gif */,
+				6F66E5501B9CA4A50084633C /* campFire15.gif */,
+				6F66E5511B9CA4A50084633C /* campFire16.gif */,
+				6F66E5521B9CA4A50084633C /* campFire17.gif */,
+			);
+			path = CampFire;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,8 +244,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F66E5621B9CA4A50084633C /* campFire16.gif in Resources */,
+				6F66E55F1B9CA4A50084633C /* campFire13.gif in Resources */,
+				6F66E5531B9CA4A50084633C /* campFire01.gif in Resources */,
+				6F66E5591B9CA4A50084633C /* campFire07.gif in Resources */,
 				6F66E5351B9C87580084633C /* BasicView.xib in Resources */,
+				6F66E5551B9CA4A50084633C /* campFire03.gif in Resources */,
 				6F66E5111B9C850C0084633C /* LaunchScreen.xib in Resources */,
+				6F66E55D1B9CA4A50084633C /* campFire11.gif in Resources */,
+				6F66E5631B9CA4A50084633C /* campFire17.gif in Resources */,
+				6F66E5541B9CA4A50084633C /* campFire02.gif in Resources */,
+				6F66E55B1B9CA4A50084633C /* campFire09.gif in Resources */,
+				6F66E5611B9CA4A50084633C /* campFire15.gif in Resources */,
+				6F66E5581B9CA4A50084633C /* campFire06.gif in Resources */,
+				6F66E55C1B9CA4A50084633C /* campFire10.gif in Resources */,
+				6F66E5561B9CA4A50084633C /* campFire04.gif in Resources */,
+				6F66E5571B9CA4A50084633C /* campFire05.gif in Resources */,
+				6F66E55E1B9CA4A50084633C /* campFire12.gif in Resources */,
+				6F66E5601B9CA4A50084633C /* campFire14.gif in Resources */,
+				6F66E55A1B9CA4A50084633C /* campFire08.gif in Resources */,
 				6F66E50E1B9C850C0084633C /* Images.xcassets in Resources */,
 				6F66E53A1B9C8E880084633C /* DemoViewController.xib in Resources */,
 			);
@@ -200,6 +281,7 @@
 				6F66E5061B9C850C0084633C /* AppDelegate.m in Sources */,
 				6F66E5031B9C850C0084633C /* main.m in Sources */,
 				6F66E5391B9C8E880084633C /* DemoViewController.m in Sources */,
+				6F66E5401B9CA3F50084633C /* CampFire.m in Sources */,
 				6F66E5331B9C86FA0084633C /* BasicView.m in Sources */,
 				6F66E53D1B9C91F20084633C /* ChessView.m in Sources */,
 			);
@@ -338,6 +420,7 @@
 				6F66E5221B9C850C0084633C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
