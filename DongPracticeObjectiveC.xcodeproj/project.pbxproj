@@ -9,22 +9,17 @@
 /* Begin PBXBuildFile section */
 		6F66E5031B9C850C0084633C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F66E5021B9C850C0084633C /* main.m */; };
 		6F66E5061B9C850C0084633C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F66E5051B9C850C0084633C /* AppDelegate.m */; };
-		6F66E5091B9C850C0084633C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F66E5081B9C850C0084633C /* ViewController.m */; };
-		6F66E50C1B9C850C0084633C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F66E50A1B9C850C0084633C /* Main.storyboard */; };
 		6F66E50E1B9C850C0084633C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F66E50D1B9C850C0084633C /* Images.xcassets */; };
 		6F66E5111B9C850C0084633C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F66E50F1B9C850C0084633C /* LaunchScreen.xib */; };
-		6F66E51D1B9C850C0084633C /* DongPracticeObjectiveCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F66E51C1B9C850C0084633C /* DongPracticeObjectiveCTests.m */; };
+		6F66E52D1B9C85B90084633C /* BootLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F66E5281B9C85B90084633C /* BootLogic.m */; };
+		6F66E52E1B9C85B90084633C /* ConsoleScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F66E52A1B9C85B90084633C /* ConsoleScreen.m */; };
+		6F66E52F1B9C85B90084633C /* MainScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F66E52C1B9C85B90084633C /* MainScreen.m */; };
+		6F66E5331B9C86FA0084633C /* BasicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F66E5321B9C86FA0084633C /* BasicView.m */; };
+		6F66E5351B9C87580084633C /* BasicView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F66E5341B9C87580084633C /* BasicView.xib */; };
+		6F66E5391B9C8E880084633C /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F66E5371B9C8E880084633C /* DemoViewController.m */; };
+		6F66E53A1B9C8E880084633C /* DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F66E5381B9C8E880084633C /* DemoViewController.xib */; };
+		6F66E53D1B9C91F20084633C /* ChessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F66E53C1B9C91F20084633C /* ChessView.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		6F66E5171B9C850C0084633C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6F66E4F51B9C850C0084633C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6F66E4FC1B9C850C0084633C;
-			remoteInfo = DongPracticeObjectiveC;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		6F66E4FD1B9C850C0084633C /* DongPracticeObjectiveC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DongPracticeObjectiveC.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -32,25 +27,26 @@
 		6F66E5021B9C850C0084633C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6F66E5041B9C850C0084633C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6F66E5051B9C850C0084633C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6F66E5071B9C850C0084633C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6F66E5081B9C850C0084633C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		6F66E50B1B9C850C0084633C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6F66E50D1B9C850C0084633C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6F66E5101B9C850C0084633C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		6F66E5161B9C850C0084633C /* DongPracticeObjectiveCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DongPracticeObjectiveCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6F66E51B1B9C850C0084633C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6F66E51C1B9C850C0084633C /* DongPracticeObjectiveCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DongPracticeObjectiveCTests.m; sourceTree = "<group>"; };
+		6F66E5271B9C85B90084633C /* BootLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BootLogic.h; sourceTree = "<group>"; };
+		6F66E5281B9C85B90084633C /* BootLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BootLogic.m; sourceTree = "<group>"; };
+		6F66E5291B9C85B90084633C /* ConsoleScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsoleScreen.h; sourceTree = "<group>"; };
+		6F66E52A1B9C85B90084633C /* ConsoleScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsoleScreen.m; sourceTree = "<group>"; };
+		6F66E52B1B9C85B90084633C /* MainScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScreen.h; sourceTree = "<group>"; };
+		6F66E52C1B9C85B90084633C /* MainScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreen.m; sourceTree = "<group>"; };
+		6F66E5311B9C86FA0084633C /* BasicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicView.h; sourceTree = "<group>"; };
+		6F66E5321B9C86FA0084633C /* BasicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicView.m; sourceTree = "<group>"; };
+		6F66E5341B9C87580084633C /* BasicView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BasicView.xib; sourceTree = "<group>"; };
+		6F66E5361B9C8E880084633C /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		6F66E5371B9C8E880084633C /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		6F66E5381B9C8E880084633C /* DemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoViewController.xib; sourceTree = "<group>"; };
+		6F66E53B1B9C91F20084633C /* ChessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessView.h; sourceTree = "<group>"; };
+		6F66E53C1B9C91F20084633C /* ChessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChessView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		6F66E4FA1B9C850C0084633C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6F66E5131B9C850C0084633C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -64,7 +60,6 @@
 			isa = PBXGroup;
 			children = (
 				6F66E4FF1B9C850C0084633C /* DongPracticeObjectiveC */,
-				6F66E5191B9C850C0084633C /* DongPracticeObjectiveCTests */,
 				6F66E4FE1B9C850C0084633C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,7 +68,6 @@
 			isa = PBXGroup;
 			children = (
 				6F66E4FD1B9C850C0084633C /* DongPracticeObjectiveC.app */,
-				6F66E5161B9C850C0084633C /* DongPracticeObjectiveCTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,11 +75,10 @@
 		6F66E4FF1B9C850C0084633C /* DongPracticeObjectiveC */ = {
 			isa = PBXGroup;
 			children = (
+				6F66E5301B9C86490084633C /* BasicView */,
+				6F66E5261B9C85820084633C /* Core */,
 				6F66E5041B9C850C0084633C /* AppDelegate.h */,
 				6F66E5051B9C850C0084633C /* AppDelegate.m */,
-				6F66E5071B9C850C0084633C /* ViewController.h */,
-				6F66E5081B9C850C0084633C /* ViewController.m */,
-				6F66E50A1B9C850C0084633C /* Main.storyboard */,
 				6F66E50D1B9C850C0084633C /* Images.xcassets */,
 				6F66E50F1B9C850C0084633C /* LaunchScreen.xib */,
 				6F66E5001B9C850C0084633C /* Supporting Files */,
@@ -102,21 +95,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6F66E5191B9C850C0084633C /* DongPracticeObjectiveCTests */ = {
+		6F66E5261B9C85820084633C /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				6F66E51C1B9C850C0084633C /* DongPracticeObjectiveCTests.m */,
-				6F66E51A1B9C850C0084633C /* Supporting Files */,
+				6F66E5271B9C85B90084633C /* BootLogic.h */,
+				6F66E5281B9C85B90084633C /* BootLogic.m */,
+				6F66E5291B9C85B90084633C /* ConsoleScreen.h */,
+				6F66E52A1B9C85B90084633C /* ConsoleScreen.m */,
+				6F66E52B1B9C85B90084633C /* MainScreen.h */,
+				6F66E52C1B9C85B90084633C /* MainScreen.m */,
 			);
-			path = DongPracticeObjectiveCTests;
+			path = Core;
 			sourceTree = "<group>";
 		};
-		6F66E51A1B9C850C0084633C /* Supporting Files */ = {
+		6F66E5301B9C86490084633C /* BasicView */ = {
 			isa = PBXGroup;
 			children = (
-				6F66E51B1B9C850C0084633C /* Info.plist */,
+				6F66E5311B9C86FA0084633C /* BasicView.h */,
+				6F66E5321B9C86FA0084633C /* BasicView.m */,
+				6F66E5341B9C87580084633C /* BasicView.xib */,
+				6F66E5361B9C8E880084633C /* DemoViewController.h */,
+				6F66E5371B9C8E880084633C /* DemoViewController.m */,
+				6F66E5381B9C8E880084633C /* DemoViewController.xib */,
+				6F66E53B1B9C91F20084633C /* ChessView.h */,
+				6F66E53C1B9C91F20084633C /* ChessView.m */,
 			);
-			name = "Supporting Files";
+			path = BasicView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,24 +143,6 @@
 			productReference = 6F66E4FD1B9C850C0084633C /* DongPracticeObjectiveC.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6F66E5151B9C850C0084633C /* DongPracticeObjectiveCTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6F66E5231B9C850C0084633C /* Build configuration list for PBXNativeTarget "DongPracticeObjectiveCTests" */;
-			buildPhases = (
-				6F66E5121B9C850C0084633C /* Sources */,
-				6F66E5131B9C850C0084633C /* Frameworks */,
-				6F66E5141B9C850C0084633C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6F66E5181B9C850C0084633C /* PBXTargetDependency */,
-			);
-			name = DongPracticeObjectiveCTests;
-			productName = DongPracticeObjectiveCTests;
-			productReference = 6F66E5161B9C850C0084633C /* DongPracticeObjectiveCTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,10 +154,6 @@
 				TargetAttributes = {
 					6F66E4FC1B9C850C0084633C = {
 						CreatedOnToolsVersion = 6.4;
-					};
-					6F66E5151B9C850C0084633C = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = 6F66E4FC1B9C850C0084633C;
 					};
 				};
 			};
@@ -189,7 +171,6 @@
 			projectRoot = "";
 			targets = (
 				6F66E4FC1B9C850C0084633C /* DongPracticeObjectiveC */,
-				6F66E5151B9C850C0084633C /* DongPracticeObjectiveCTests */,
 			);
 		};
 /* End PBXProject section */
@@ -199,16 +180,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F66E50C1B9C850C0084633C /* Main.storyboard in Resources */,
+				6F66E5351B9C87580084633C /* BasicView.xib in Resources */,
 				6F66E5111B9C850C0084633C /* LaunchScreen.xib in Resources */,
 				6F66E50E1B9C850C0084633C /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6F66E5141B9C850C0084633C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				6F66E53A1B9C8E880084633C /* DemoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,39 +194,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F66E5091B9C850C0084633C /* ViewController.m in Sources */,
+				6F66E52D1B9C85B90084633C /* BootLogic.m in Sources */,
+				6F66E52F1B9C85B90084633C /* MainScreen.m in Sources */,
+				6F66E52E1B9C85B90084633C /* ConsoleScreen.m in Sources */,
 				6F66E5061B9C850C0084633C /* AppDelegate.m in Sources */,
 				6F66E5031B9C850C0084633C /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6F66E5121B9C850C0084633C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6F66E51D1B9C850C0084633C /* DongPracticeObjectiveCTests.m in Sources */,
+				6F66E5391B9C8E880084633C /* DemoViewController.m in Sources */,
+				6F66E5331B9C86FA0084633C /* BasicView.m in Sources */,
+				6F66E53D1B9C91F20084633C /* ChessView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		6F66E5181B9C850C0084633C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6F66E4FC1B9C850C0084633C /* DongPracticeObjectiveC */;
-			targetProxy = 6F66E5171B9C850C0084633C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		6F66E50A1B9C850C0084633C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6F66E50B1B9C850C0084633C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6F66E50F1B9C850C0084633C /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -363,40 +319,6 @@
 			};
 			name = Release;
 		};
-		6F66E5241B9C850C0084633C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = DongPracticeObjectiveCTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DongPracticeObjectiveC.app/DongPracticeObjectiveC";
-			};
-			name = Debug;
-		};
-		6F66E5251B9C850C0084633C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = DongPracticeObjectiveCTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DongPracticeObjectiveC.app/DongPracticeObjectiveC";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -414,14 +336,6 @@
 			buildConfigurations = (
 				6F66E5211B9C850C0084633C /* Debug */,
 				6F66E5221B9C850C0084633C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		6F66E5231B9C850C0084633C /* Build configuration list for PBXNativeTarget "DongPracticeObjectiveCTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6F66E5241B9C850C0084633C /* Debug */,
-				6F66E5251B9C850C0084633C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

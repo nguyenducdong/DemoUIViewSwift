@@ -8,6 +8,6 @@
 
 #import "ConsoleScreen.h"
 
-@interface BasicView : ConsoleScreen
+@interface BasicView : UIViewController
 
 @end

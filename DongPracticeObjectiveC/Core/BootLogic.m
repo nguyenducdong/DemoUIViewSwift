@@ -15,20 +15,12 @@
 {
     MainScreen* mainScreen = [[MainScreen alloc] initWithStyle:UITableViewStyleGrouped];
     //--------- From this line, please customize your menu data -----------
-    NSDictionary* basic = @{SECTION: @"NSArray", MENU: @[
-                                    @{TITLE: @"Create", CLASS: @"CreateArray"},
-                                    @{TITLE: @"Query", CLASS: @"QueryArray"},
-                                    @{TITLE: @"Send Message", CLASS: @"SendMessage"},
-                                    @{TITLE: @"Mutable Array", CLASS: @"MutableArray"},
+    NSDictionary* basic = @{SECTION: @"BasicView", MENU: @[
+                                    @{TITLE: @"BasicView", CLASS: @"BasicView"},
+                                    @{TITLE: @"ChessView", CLASS: @"ChessView"}
                           ]};
-    NSDictionary* intermediate = @{SECTION: @"NSDictionary", MENU: @[
-                                    @{TITLE: @"Create", CLASS: @"CreateDictionary"}
-                                  ]};
-    NSDictionary* advanced = @{SECTION: @"Advanced", MENU: @[
-                                    @{TITLE: @"Advanced C", CLASS: @"AdvancedC"}
-                             ]};
     
-    mainScreen.menu = @[basic, intermediate, advanced];
+    mainScreen.menu = @[basic];
     mainScreen.title = @"Collection Programming";
     mainScreen.about = @"This is Collection Programming in Objecitve_C";
     //--------- End of customization -----------

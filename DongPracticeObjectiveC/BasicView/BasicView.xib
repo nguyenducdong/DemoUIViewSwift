@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BasicView" customModule="UIViewBasic" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BasicView">
             <connections>
                 <outlet property="myView" destination="hlE-JZ-vt8" id="5km-Xa-gep"/>
                 <outlet property="rotateSlider" destination="sz6-53-AAA" id="uQg-re-QyE"/>
