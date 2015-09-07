@@ -18,7 +18,8 @@
     NSDictionary* basic = @{SECTION: @"BasicView", MENU: @[
                                     @{TITLE: @"BasicView", CLASS: @"BasicView"},
                                     @{TITLE: @"ChessView", CLASS: @"ChessView"},
-                                    @{TITLE: @"Hoạt hình trong UIImageView", CLASS: @"CampFire"}
+                                    @{TITLE: @"Hoạt hình trong UIImageView", CLASS: @"CampFire"},
+                                    @{TITLE: @"Hoạt cảnh chim bay trong rừng", CLASS: @"FlyingBird"}
                           ]};
     
     mainScreen.menu = @[basic];

@@ -43,7 +43,7 @@
         [images addObject:[UIImage imageNamed:fileName]];
     }
     fireImageView.animationImages = images;
-    fireImageView.animationDuration = 2;
+    fireImageView.animationDuration = 1;
     fireImageView.animationRepeatCount = 0;
     [self.view addSubview:fireImageView];
     [fireImageView startAnimating];
