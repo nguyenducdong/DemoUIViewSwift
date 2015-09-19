@@ -19,7 +19,8 @@
                                     @{TITLE: @"BasicView", CLASS: @"BasicView"},
                                     @{TITLE: @"ChessView", CLASS: @"ChessView"},
                                     @{TITLE: @"Hoạt hình trong UIImageView", CLASS: @"CampFire"},
-                                    @{TITLE: @"Hoạt cảnh chim bay trong rừng", CLASS: @"FlyingBird"}
+                                    @{TITLE: @"Hoạt cảnh chim bay trong rừng", CLASS: @"FlyingBird"},
+                                    @{TITLE: @"Animation 4 star", CLASS: @"StarAnimationViewController"}
                           ]};
     
     mainScreen.menu = @[basic];

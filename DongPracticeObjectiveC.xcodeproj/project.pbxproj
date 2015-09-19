@@ -20,6 +20,11 @@
 		6F66E53A1B9C8E880084633C /* DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F66E5381B9C8E880084633C /* DemoViewController.xib */; };
 		6F66E53D1B9C91F20084633C /* ChessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F66E53C1B9C91F20084633C /* ChessView.m */; };
 		6F66E5401B9CA3F50084633C /* CampFire.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F66E53F1B9CA3F50084633C /* CampFire.m */; };
+		6F7D63171BADAF34008129F6 /* brown.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F7D63131BADAF34008129F6 /* brown.png */; };
+		6F7D63181BADAF34008129F6 /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F7D63141BADAF34008129F6 /* green.png */; };
+		6F7D63191BADAF34008129F6 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F7D63151BADAF34008129F6 /* red.png */; };
+		6F7D631A1BADAF34008129F6 /* violet.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F7D63161BADAF34008129F6 /* violet.png */; };
+		6F7D631D1BADAFAE008129F6 /* StarAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7D631C1BADAFAE008129F6 /* StarAnimationViewController.m */; };
 		6F8F19491B9DD79B007AC1E9 /* campFire01.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6F8F19381B9DD79B007AC1E9 /* campFire01.gif */; };
 		6F8F194A1B9DD79B007AC1E9 /* campFire02.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6F8F19391B9DD79B007AC1E9 /* campFire02.gif */; };
 		6F8F194B1B9DD79B007AC1E9 /* campFire03.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6F8F193A1B9DD79B007AC1E9 /* campFire03.gif */; };
@@ -71,6 +76,12 @@
 		6F66E53C1B9C91F20084633C /* ChessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChessView.m; sourceTree = "<group>"; };
 		6F66E53E1B9CA3F50084633C /* CampFire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CampFire.h; sourceTree = "<group>"; };
 		6F66E53F1B9CA3F50084633C /* CampFire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CampFire.m; sourceTree = "<group>"; };
+		6F7D63131BADAF34008129F6 /* brown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brown.png; sourceTree = "<group>"; };
+		6F7D63141BADAF34008129F6 /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
+		6F7D63151BADAF34008129F6 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
+		6F7D63161BADAF34008129F6 /* violet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = violet.png; sourceTree = "<group>"; };
+		6F7D631B1BADAFAE008129F6 /* StarAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarAnimationViewController.h; sourceTree = "<group>"; };
+		6F7D631C1BADAFAE008129F6 /* StarAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarAnimationViewController.m; sourceTree = "<group>"; };
 		6F8F19381B9DD79B007AC1E9 /* campFire01.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = campFire01.gif; sourceTree = "<group>"; };
 		6F8F19391B9DD79B007AC1E9 /* campFire02.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = campFire02.gif; sourceTree = "<group>"; };
 		6F8F193A1B9DD79B007AC1E9 /* campFire03.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = campFire03.gif; sourceTree = "<group>"; };
@@ -178,13 +189,27 @@
 				6F66E53F1B9CA3F50084633C /* CampFire.m */,
 				6F8F19691B9DD863007AC1E9 /* FlyingBird.h */,
 				6F8F196A1B9DD863007AC1E9 /* FlyingBird.m */,
+				6F7D631B1BADAFAE008129F6 /* StarAnimationViewController.h */,
+				6F7D631C1BADAFAE008129F6 /* StarAnimationViewController.m */,
 			);
 			path = BasicView;
+			sourceTree = "<group>";
+		};
+		6F7D63121BADAF34008129F6 /* Stars */ = {
+			isa = PBXGroup;
+			children = (
+				6F7D63131BADAF34008129F6 /* brown.png */,
+				6F7D63141BADAF34008129F6 /* green.png */,
+				6F7D63151BADAF34008129F6 /* red.png */,
+				6F7D63161BADAF34008129F6 /* violet.png */,
+			);
+			path = Stars;
 			sourceTree = "<group>";
 		};
 		6F8F19361B9DD79B007AC1E9 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				6F7D63121BADAF34008129F6 /* Stars */,
 				6F8F195A1B9DD7ED007AC1E9 /* flyingbird */,
 				6F8F19371B9DD79B007AC1E9 /* CampFire */,
 			);
@@ -292,6 +317,7 @@
 				6F8F19631B9DD7ED007AC1E9 /* bird1.png in Resources */,
 				6F8F19491B9DD79B007AC1E9 /* campFire01.gif in Resources */,
 				6F8F194F1B9DD79B007AC1E9 /* campFire07.gif in Resources */,
+				6F7D63191BADAF34008129F6 /* red.png in Resources */,
 				6F66E5351B9C87580084633C /* BasicView.xib in Resources */,
 				6F8F194B1B9DD79B007AC1E9 /* campFire03.gif in Resources */,
 				6F66E5111B9C850C0084633C /* LaunchScreen.xib in Resources */,
@@ -300,6 +326,8 @@
 				6F8F19591B9DD79B007AC1E9 /* campFire17.gif in Resources */,
 				6F8F19671B9DD7ED007AC1E9 /* bird5.png in Resources */,
 				6F8F194A1B9DD79B007AC1E9 /* campFire02.gif in Resources */,
+				6F7D63171BADAF34008129F6 /* brown.png in Resources */,
+				6F7D631A1BADAF34008129F6 /* violet.png in Resources */,
 				6F8F19511B9DD79B007AC1E9 /* campFire09.gif in Resources */,
 				6F8F19571B9DD79B007AC1E9 /* campFire15.gif in Resources */,
 				6F8F194E1B9DD79B007AC1E9 /* campFire06.gif in Resources */,
@@ -312,6 +340,7 @@
 				6F8F19501B9DD79B007AC1E9 /* campFire08.gif in Resources */,
 				6F8F19651B9DD7ED007AC1E9 /* bird3.png in Resources */,
 				6F66E50E1B9C850C0084633C /* Images.xcassets in Resources */,
+				6F7D63181BADAF34008129F6 /* green.png in Resources */,
 				6F66E53A1B9C8E880084633C /* DemoViewController.xib in Resources */,
 				6F8F19641B9DD7ED007AC1E9 /* bird2.png in Resources */,
 			);
@@ -331,6 +360,7 @@
 				6F66E5031B9C850C0084633C /* main.m in Sources */,
 				6F8F196B1B9DD863007AC1E9 /* FlyingBird.m in Sources */,
 				6F66E5391B9C8E880084633C /* DemoViewController.m in Sources */,
+				6F7D631D1BADAFAE008129F6 /* StarAnimationViewController.m in Sources */,
 				6F66E5401B9CA3F50084633C /* CampFire.m in Sources */,
 				6F66E5331B9C86FA0084633C /* BasicView.m in Sources */,
 				6F66E53D1B9C91F20084633C /* ChessView.m in Sources */,
